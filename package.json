@@ -1,0 +1,17 @@
+{
+  "name": "polotno-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -r index.zip . -x '*.pdf' 'files/*' 'files2/*' 'output/*' '.git/*' '*.zip' 'test.json' 'test.mjs'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.911.0",
+    "polotno-node": "^2.12.29"
+  }
+}

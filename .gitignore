@@ -1,0 +1,11 @@
+node_modules/
+*.zip
+*.pdf
+files/
+files2/
+output/
+test.json
+config.mjs
+design.json
+test-files/
+testing/
